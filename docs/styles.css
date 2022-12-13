@@ -1,0 +1,72 @@
+* { /* Este es de ley, siempre, para dejar todo hasta arriba como va el elemento */
+    margin: 0px;
+    padding: 0px;
+}
+
+body { /* Para el cuerpo */
+    padding: 40px; /* Es el espacio de afuera hacia adentro asignado */
+}
+
+h1 { /* Elemento del Htmls */
+    max-width: 1035px; /* Anchura del elemento */
+    text-align: center; /* El texto dentro se centre */
+    line-height: 50px; /* Espacio hacia abajo del titulo */
+    margin: 0 auto;
+}
+
+#cajas { /* Esto es el section */
+    max-width: 1050px; /* Tamaño maximo del ancho de la seccion, dentro puse las cajas */
+    border: 1px solid black; /* Esto es el borde de la section */
+    margin: 0 auto;
+}
+
+.caja {
+    display: block; /* Que actue la caja como un bloque */
+    width: 250px; /* La anchura de la caja */
+    height: 250px; /* El alto de la caja */
+    background-color: lightblue; /* Color de fondo */
+    border: 10px solid red; /* El borde de la caja, solor rojo */
+    margin: 15px; /* Margen hacia todos los lados */
+    margin-top: 20px; /* Margen de las cajas hacia arriba, no chocan con el section */
+    margin-bottom: 20px; /* Margen inferior, espacio libre */
+    margin-left: 24px; /* Margen hacia la izquierda de las cajas */
+    margin-right: 10px; /* Margen hacia la derecha de las cajas */
+    padding: 20px; /* Espacio hacia afuera de las cajas, mas anchas y largas */
+    padding-bottom: 34px; /* Espacio inferior de la caja, mayor espacio */
+    float: left; /* Para que puedan flotar en lo que mide el espacio, poner alado de la otra, ocupa display block */
+}
+
+.caja p { /* Solo los que esten dentro de la clase caja y elemento p */
+    font-weight: bold; /* Texto en negritas */
+    text-align: center; /* Texto alineado al centro */
+    font-size: 20px; /* Tamaño del texto */
+    font-family: Arial; /* Tipo de fuente */
+    line-height: 235px; /* Espacio hacia abajo del texto */
+}
+
+.clearfix { /* Clase definida para limpiar flotados */
+    float: none; /* Para que sepa que esto no se tiene que flotar */
+    clear: both /* Para limpiar los elementos flotantes, lo utilizo para el h2 y p fuera del section */
+}
+
+h2{ /* Elemento html */
+    max-width: 1035px; /* Tamaño maximo del elemento */
+    text-align: center; /* Que el texto se centre */
+    margin-top: 10px; /* Margen superior */
+    margin: 0 auto;
+}
+
+#footer-p{ /* id del elemento html */
+    max-width: 1035px; /* Tamaño maximo del elemento */
+    margin-top: 10px; /* Margen superior */
+    text-align: center; /* Texto centrado */
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
